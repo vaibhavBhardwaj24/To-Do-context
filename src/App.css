@@ -1,0 +1,18 @@
+.main{
+  display: flex;
+  width: 100vh;
+  height: 100vh;
+}
+.topic{
+  margin-inline: 7%;
+  overflow: scroll;
+  /* scrollbar-width: 0px; */
+  /* width: ; */
+  min-width: 134vb;
+}
+h1{
+  font-size: 300%;
+}
+.header{
+  position: sticky;
+}

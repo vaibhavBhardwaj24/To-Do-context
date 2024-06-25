@@ -1,0 +1,47 @@
+.link {
+  color: #252525;
+  text-decoration: none;
+  padding: 1%;
+  width: 14em;
+  height: 3em;
+  /* background-color: blueviolet; */
+  margin:1%;
+  padding-left: 5%;
+  padding: 1%;
+  padding-inline: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  /* border: rgba(201, 8, 8,) solid 1px; */
+  /* font-size:1.2em; */
+  /* font-weight: bold; */
+}
+.link:hover{
+    background-color: rgba(201, 8, 8, 0.1);
+    color: rgb(201, 8, 8);
+    /* border: rgba(201, 8, 8, 0.4) solid 1px; */
+}
+.link:hover > svg {
+  opacity: 0.4;
+  transition: ease-in;
+  transition-duration: 200ms;
+ 
+}
+.header {
+  display: flex;
+  border-right: rgb(37, 37, 37,0.5) 1px solid;
+  align-items: center;
+  justify-content: flex-start;
+  /* height: 100%; */
+  flex-direction: column;
+  width:15em;
+  padding: 2%;
+  background-color: rgb(249, 246, 238,0.5);
+  position: sticky;
+}
+.active-link {
+    color: red;
+    font-weight: bold;
+  }
+  

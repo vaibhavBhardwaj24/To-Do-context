@@ -1,0 +1,22 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color-scheme: light dark;
+  color:#252525;
+  background-color: #f3f7f5;
+  width: 100%;
+  display: flex;
+}
+body{
+  display: flex;
+  margin: 0%;
+  width: 100vb;
+  position: sticky;
+}
+input{
+  background-color: inherit;
+  color:  inherit;
+}
