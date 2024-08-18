@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import context from "../context";
-import "./styles/SubItem.css";
+import "./styles/subItem.css";
 function SubItem(props) {
   const { addSubTask, remSubTask, editSubTask } = useContext(context);
   const [subTaak, setSubTask] = useState("");
